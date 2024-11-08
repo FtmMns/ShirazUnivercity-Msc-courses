@@ -2,7 +2,7 @@
 from  typing import List
 input_list = input("enter your numbers separated by comma : ")
 string_numbers = input_list.split(",")
-number_list = []
+number_list = [1,2,3,4]
 for i in string_numbers:
     number_list.append(int(i))
 def process_numbers(number_list: List[int]):
